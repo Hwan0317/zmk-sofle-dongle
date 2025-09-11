@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&caps'
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-caps$$'}
   - A
   - S
   - D
