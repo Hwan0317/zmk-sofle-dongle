@@ -84,7 +84,7 @@ layers:
   - Gui+Ctl+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:keyboard-tab$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
-  - '&mkp MB4'
+  - Alt+F4
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - '&mkp MB4'
@@ -106,11 +106,11 @@ layers:
   - $$mdi:pan-down$$
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
+  - '&mkp MB4'
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - RGB SPI
+  - '&mkp MB5'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
