@@ -62,9 +62,9 @@ layers:
   - '&mkp MB1'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - RIGHT GUI
+  - $$mdi:apple-keyboard-control$$
+  - MENU
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -93,7 +93,7 @@ layers:
   - $$mdi:pan-up$$
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  - Sft+Gui+$$mdi:arrow-left-bold$$
   - Ctl+PG UP
   - Alt+$$mdi:keyboard-tab$$
   - Ctl+PgDn
@@ -138,11 +138,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+|
@@ -163,7 +163,7 @@ layers:
   - {t: '=', s: +}
   - Sft+(
   - Sft+)
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - PREVIOUS
   - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -176,20 +176,20 @@ layers:
   - Sft+>
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - NEXT
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - MUTE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
+  - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
