@@ -156,7 +156,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - +
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
   - {t: '-', s: _}
@@ -176,14 +176,14 @@ layers:
   - Sft+>
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - NEXT
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-next$$
+  - INS
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - MUTE
+  - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
