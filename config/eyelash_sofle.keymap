@@ -81,10 +81,10 @@
         layer_2 {
             bindings = <
 &trans      &trans        &trans         &trans        &trans        &trans          &mmv MOVE_UP      &trans     &trans        &trans    &trans         &trans    &trans
-&trans      &kp LS(PIPE)  &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)    &mmv MOVE_DOWN    &kp PG_UP  &kp LC(LEFT)  &kp UP    &kp LC(RIGHT)  &kp BSPC  &kp PLUS
-&trans      &kp BSLH      &kp MINUS      &kp EQUAL     &kp LS(LPAR)  &kp LS(RPAR)    &kp K_PREVIOUS    &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp DEL   &kp BSPC
-&trans      &trans        &kp LS(LT)     &kp LS(GT)    &kp LBKT      &kp RBKT        &kp K_NEXT        &trans     &kp HOME      &trans    &kp END        &trans    &trans
-&kp K_MUTE  &trans        &trans         &trans        &trans        &trans          &kp K_PLAY_PAUSE  &trans     &trans        &trans    &trans         &trans
+&trans      &kp LS(PIPE)  &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)    &mmv MOVE_DOWN    &kp PG_UP  &kp LC(LEFT)  &kp UP    &kp LC(RIGHT)  &kp BSPC  &kp BACKSPACE
+&trans      &kp BSLH      &kp MINUS      &kp EQUAL     &kp LS(LPAR)  &kp LS(RPAR)    &kp C_PREVIOUS    &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp DEL   &kp BSPC
+&trans      &trans        &kp LS(LT)     &kp LS(GT)    &kp LBKT      &kp RBKT        &kp C_NEXT        &kp INS    &kp HOME      &trans    &kp END        &trans    &trans
+&kp C_MUTE  &trans        &trans         &trans        &trans        &trans          &kp C_PLAY_PAUSE  &trans     &trans        &trans    &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
